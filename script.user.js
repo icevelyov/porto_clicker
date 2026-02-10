@@ -14,7 +14,8 @@ function tick() {
     const links = Array.from(document.querySelectorAll('a.courseindex-link.text-truncate'));
     if (!links.length)
     {
-        console.log('no links found');
+        console.log('no links found. go back');
+        history.back();
         return;
     }
 
