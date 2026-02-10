@@ -31,7 +31,7 @@ function tick() {
     }
 
     const randomLink = filtered[Math.floor(Math.random() * filtered.length)];
-    const timeoutSeconds = 60 * 5;
+    const timeoutSeconds = 5;
     const timeout = 1000 * timeoutSeconds;
     console.log(`after ${timeoutSeconds} seconds link ${randomLink} will be clicked`);
     setTimeout(() => {
